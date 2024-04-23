@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  font-family: "DM Sans", Sans-serif;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 30px;
+  justify-content: center;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(71, 70, 70);
+  font-size: 13px;
+  margin-left: 30px;
+  font-weight: 700;
+  position: relative;
+}
+
+nav ul li a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0dba4b;
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #0dba4b;
+  text-decoration-thickness: 3px;
+}
+.container {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 4px;
+  margin-bottom: 30px;
+}
+.blog-img {
+  margin-bottom: 30px;
+}
+.navigation {
+  width: 100%;
+}
+.post-img a img {
+  width: 350px;
+  height: 100%;
+}
+.sixth-card a img,
+.seventh-card a img,
+.eighth-card a img,
+.nineth-card a img {
+  width: 350px;
+  height: 130px;
+}
+.DS-first-card a img,
+.DS-second-card a img,
+.DS-third-card a img,
+.DS-fourth-card a img,
+.DS-fifth-card a img,
+.DS-sixth-card a img,
+.DS-seventh-card a img,
+.DS-eighth-card a img,
+.DS-nineth-card a img {
+  width: 350px;
+  height: 130px;
+}
+.DS-first-card hr,
+.DS-second-card hr,
+.DS-fourth-card hr,
+.DS-seventh-card hr,
+.DS-eighth-card hr,
+.DS-nineth-card hr {
+  margin-top: 30px;
+}
+.DS-fifth-card hr,
+.DS-sixth-card hr {
+  margin-top: 55px;
+}
+.CS-first-card a img,
+.CS-second-card a img,
+.CS-third-card a img,
+.CS-fourth-card a img,
+.CS-sixth-card a img,
+.CS-seventh-card a img,
+.CS-eighth-card a img,
+.CS-nineth-card a img {
+  width: 350px;
+  height: 130px;
+}
+.CS-third-card hr,
+.CS-seventh-card hr,
+.CS-eighth-card hr {
+  margin-top: 30px;
+}
+.CS-second-card hr,
+.CS-sixth-card hr,
+.CS-nineth-card hr {
+  margin-top: 55px;
+}
+.CS-fifth-card a img {
+  width: 350px;
+  height: 100px;
+}
+.career-first-card a img,
+.career-second-card a img,
+.career-third-card a img,
+.career-fourth-card a img,
+.career-fifth-card a img,
+.career-sixth-card a img,
+.career-seventh-card a img,
+.career-eighth-card a img,
+.career-nineth-card a img {
+  width: 350px;
+  height: 130px;
+}
+.career-second-card hr,
+.career-third-card hr,
+.career-fourth-card hr,
+.career-sixth-card hr,
+.career-seventh-card hr,
+.career-nineth-card hr {
+  margin-top: 30px;
+}
+.FSD-eighth-card a img,
+.FSD-nineth-card a img {
+  width: 350px;
+  height: 130px;
+}
+.FSD-second-card hr,
+.FSD-third-card hr,
+.FSD-fourth-card hr,
+.FSD-fifth-card hr,
+.FSD-sixth-card hr,
+.FSD-nineth-card hr {
+  margin-top: 30px;
+}
+.FSD-seventh-card hr {
+  margin-top: 55px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
+  margin: 50px;
+}
+.post-card {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  transition: box-shadow 0.3s;
+}
+.post-card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.post-text,
+.post-card-end {
+  padding: 0 30px;
+}
+.post-text-title a {
+  text-decoration: none;
+  color: black;
+  line-height: 1.3em;
+  font-size: 21px;
+}
+.post-text-content a {
+  text-decoration: none;
+  color: rgb(56, 55, 55);
+  line-height: 1.7em;
+  font-size: 14px;
+}
+.first-card hr,
+.second-card hr,
+.third-card hr,
+.fifth-card hr,
+.seventh-card hr,
+.nineth-card hr {
+  margin-top: 30px;
+}
+.fourth-card hr {
+  margin-top: 50px;
+}
+.read-more {
+  text-decoration: none;
+  color: #0aaa01;
+  font-size: 12px;
+  font-weight: 700;
+}
+.date,
+.text {
+  font-size: 12px;
+  line-height: 1.3em;
+  color: #adadad;
+  margin: 0.5px;
+}
+.text {
+  margin-left: 5px;
+}
+.header {
+  background-image: url("https://blog.guvi.in/wp-content/uploads/2022/04/Blog-heading.jpg");
+  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-left: 150px;
+}
+h1 {
+  color: #535b62;
+  font-size: 40px;
+  font-weight: 500;
+  font-weight: 1.3em;
+  margin-bottom: 20px;
+}
+.first-para {
+  margin-bottom: 20px;
+}
+.first-para,
+.second-para {
+  text-align: justify;
+  color: #3d4459;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+.FSD-navigation,
+.DS-navigation,
+.cs-navigation {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.underline {
+  height: 4px !important;
+  width: 100%;
+  left: 0;
+  background-color: #0dba4b !important;
+  z-index: 2;
+  top: 56px;
+}
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .container img {
+    width: 500px;
+  }
+
+  nav ul li a {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .container img {
+    width: 500px;
+  }
+
+  nav ul li a {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 1025px) {
+  nav ul li a {
+    font-size: 13px;
+    margin-left: 30px;
+  }
+}
